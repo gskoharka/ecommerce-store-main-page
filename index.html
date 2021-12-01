@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Sneakers</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="javascript/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <nav>
+        <img src="images/icon-menu.svg" alt="menuicon" class="menu-icon">
+
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+        <ul class="menuitems">
+          <img src="images/icon-close.svg" alt="close-icon" id="close-icon">
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="sidemenu">
+          <div class="cart">
+            <img src="images/icon-cart.svg" alt="carticon" id="cart-img">
+            <span id="quantity-indicator">0</span>
+          </div>
+          <div class="avatar">
+            <img src="images/image-avatar.png" alt="avatar">
+          </div>
+
+        </div>
+      </nav>
+    </div>
+
+    <div class="main_content">
+      <main>
+
+        <div class="column1">
+          <div class="lightbox">
+            <img src="images/image-product-1.jpg" alt="light box" id="lightbox">
+          </div>
+          <div class="thumbnails">
+            <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail 1">
+            <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail 2">
+            <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail 3">
+            <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail 4">
+          </div>
+        </div>
+
+        <div class="column2">
+          <div class="title">sneaker company</div>
+          <h1 class="heading">Fall Limited Edition Sneakers</h1>
+          <p class="product-description">
+            These low-profile sneakers are your perfect
+            casual wear companion.Featuring a durable rubber
+            outer sole,they'll withstand everything the weather can offer
+          </p>
+          <div class="price">&dollar;125.00</div>
+          <div class="order-area">
+            <div class="quantity-changer">
+              <img src="images/icon-minus.svg" alt="quantiy decreaser button" class="quantity-decrease">
+              <div class="real-quantity">0</div>
+              <img src="images/icon-plus.svg" alt="quantiy increaser button" class="quantity-increase">
+
+            </div>
+            <div class="add-cart-btn">
+              <button><img src="images/icon-cart.svg" alt="cart icon">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="open-cart">
+          <div class="empty-cart">
+            <div class="cart-name">cart</div>
+            <div class="divider"></div>
+            <div class="cart-container">
+              <div class="cart-items">
+                <img src="images/image-product-1-thumbnail.jpg" alt="item image" class="item-img">
+                <div class="item-description">
+                  <p>Fall Limited Edition Sneakers</p>
+                  <div class="total-price-quantity">
+                    <span id="price-per-item">&dollar;125.00 &Cross;</span>
+                    <span id="final-quantity">
+
+                    </span>
+                    <span id="final-price">
+                      <b>
+                        &dollar;
+                      </b>
+                    </span>
+
+                  </div>
+                </div>
+                <div class="delete-icon">
+                  <img src="images/icon-delete.svg" alt="delete icon">
+                </div>
+              </div>
+              <button class="check-out">Checkout</button>
+
+            </div>
+            <div class="empty-cart-msg">
+              Your cart is empty.
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="light-box-container-hidden">
+    <div class="inner-container">
+      <div class="light-box-images">
+        <img src="images/image-product-1.jpg" alt="light box" id="light-box">
+      </div>
+      <div class="previous-button">
+        <img src="images/icon-previous.svg" alt="previous button">
+      </div>
+      <div class="next-button">
+        <img src="images/icon-next.svg" alt="next button">
+      </div>
+      <img src="images/icon-close.svg" alt="close button" class="close-button">
+
+      <div class="light-box-thumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail 1">
+        <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail 2">
+        <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail 3">
+        <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail 4">
+      </div>
+    </div>
+  </div>
+  <script src="javascript/javascript.js"></script>
+</body>
+
+</html>
